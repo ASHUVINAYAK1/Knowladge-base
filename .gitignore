@@ -1,0 +1,36 @@
+# =====================
+# Node / pnpm / Next.js
+# =====================
+node_modules/
+pnpm-lock.yaml
+.next/
+dist/
+out/
+.env
+.env.local
+.env.*.local
+.vscode/
+
+# =====================
+# Python / FastAPI
+# =====================
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+pip-log.txt
+*.egg-info/
+.eggs/
+.python-version
+
+# =====================
+# General
+# =====================
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+*.swp
